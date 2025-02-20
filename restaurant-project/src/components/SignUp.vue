@@ -12,8 +12,7 @@
 import axios from 'axios';
 export default {
     name: 'SignUp',
-    data()
-    {
+    data() {
         return {
             name: "Shlomo",
             email: "suleyman.hacizade1@gmail.com",
@@ -21,8 +20,7 @@ export default {
         }
     },
     methods: {
-       async signUp() 
-        {
+        async signUp() {
             let result = await axios.post("http://localhost:3000/users", {
                 email: this.email,
                 password: this.password,
@@ -30,8 +28,7 @@ export default {
             });
 
             console.log(result);
-            if(result.status == 201)
-            {
+            if (result.status == 201) {
                 alert("User created successfully");
                 localStorage.setItem("user-info", JSON.stringify(result.data));
             }
@@ -45,6 +42,7 @@ export default {
 .logo {
     width: 100px;
 }
+
 .register input {
     width: 300px;
     height: 40px;
