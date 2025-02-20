@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "name": "Shlomo",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "555435436433",
+      "id": "8c56"
+    },
+    {
+      "id": "f83c",
+      "name": "Shlomo",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "555435436433"
+    },
+    {
+      "id": "3174",
+      "name": "Sharon",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "555435436433"
+    }
+  ]
+}
