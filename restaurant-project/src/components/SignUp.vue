@@ -29,8 +29,8 @@ export default {
 
             console.log(result);
             if (result.status == 201) {
-                alert("User created successfully");
                 localStorage.setItem("user-info", JSON.stringify(result.data));
+                this.$router.push({ name: "HomePage" });
             }
         }
     }
@@ -58,7 +58,7 @@ export default {
     width: 320px;
     height: 40px;
     border: 1px solid skyblue;
-    background-color: skyblue;
+    background-color: rgb(9, 103, 139);
     color: #fff;
     cursor: pointer;
 }

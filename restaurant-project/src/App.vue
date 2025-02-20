@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import router from './routers';
 
 export default {
   name: 'App',
