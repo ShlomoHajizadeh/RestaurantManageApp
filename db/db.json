@@ -1,3 +1,52 @@
 {
-  "user": []
+  "users": [
+    {
+      "id": "652f",
+      "name": "Sharon",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "555435436433"
+    },
+    {
+      "id": "b1f3",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "1234567654533455676453",
+      "name": "Shlomo"
+    },
+    {
+      "id": "b716",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "1234567654533455676453",
+      "name": "Shlomo"
+    },
+    {
+      "id": "5af4",
+      "name": "Sharon",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "555435436433"
+    },
+    {
+      "id": "9828",
+      "email": "suleyman.hacizade1@gmail.com",
+      "password": "1234567654533455676453",
+      "name": "Shlomo"
+    },
+    {
+      "id": "1239",
+      "email": "sharon.hacizade1@gmail.com",
+      "password": "ckvj,dfmjvj",
+      "name": "Sharon"
+    },
+    {
+      "id": "5319",
+      "email": "sharon.hacizade1@gmail.com",
+      "password": "ckvj,dfmjvj",
+      "name": "Sharon"
+    },
+    {
+      "id": "9dc9",
+      "email": "sharon.hacizad",
+      "password": "ckvj,dfmjvj",
+      "name": "Sharon"
+    }
+  ]
 }
