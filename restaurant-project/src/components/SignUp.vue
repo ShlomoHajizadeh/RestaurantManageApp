@@ -7,7 +7,7 @@
         <input type="password" v-model="password" placeholder="Enter Password" />
         <button v-on:click="signUp">Sign Up</button>
         <p>
-            <router-link to="/login" >Login</router-link>
+            <router-link to="/login">Login</router-link>
         </p>
     </div>
 </template>
@@ -30,7 +30,7 @@ export default {
                 name: this.name
             });
 
-            console.log(result);
+            console.warn(result);
             if (result.status == 201) {
                 localStorage.setItem("user-info", JSON.stringify(result.data));
                 this.$router.push({ name: "HomePage" });
@@ -38,9 +38,8 @@ export default {
         }
     },
     mounted() {
-        let  user= localStorage.getItem('user-info');
-        if(!user)
-        {
+        let user = localStorage.getItem('user-info');
+        if (!user) {
             this.$router.push({ name: "HomePage" });
         }
     },
@@ -48,6 +47,4 @@ export default {
 
 </script>
 
-<style>
-
-</style>
+<style></style>
